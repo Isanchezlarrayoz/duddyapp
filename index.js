@@ -6,7 +6,8 @@ var bodyParser = require('body-parser');
 
 
 app.get('/', function(req, res) {
-      res.redirect('/trainers');
+    //  res.redirect('/trainers');
+    res.send("ok");
 });
 
 

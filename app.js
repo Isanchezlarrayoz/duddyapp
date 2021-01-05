@@ -13,11 +13,11 @@ var trainers = [{'name':'A', 'reputation':4.5, 'disp':1},{'name':'B', 'reputatio
 ,{'name':'D', 'reputation':3.4, 'disp':2}];
 ///
 
-//var routes = require('./index');
+var index = require('./index');
 
 app.use(bodyParser.json({limit: '200mb'}));
 app.use(bodyParser.urlencoded({ extended : true }));
-//app.use('/', routes);
+app.use('/', index);
 app.use(express.static(__dirname + '/public'));
 app.use('/trainers', function(req,res){
     res.sendFile(path.join(__dirname+'/public/html/trainers.html'));
