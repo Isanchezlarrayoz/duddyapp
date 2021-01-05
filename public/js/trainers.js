@@ -21,7 +21,7 @@
                   
                  $('#trainers').append('' +
                    '<label>Entrenador'+num+'</label>'+
-                    '<div class="row">'+
+                    '<div class="row col-xs-12">'+
                         '<div class="col-md-1 align-baseline" style="margin-top: 9px">'+
                         'Nombre'+
                         '</div>'+
@@ -111,7 +111,7 @@
                 for(var i in res){
                  	
                    $('#results_cards').append('' +
-                    '<div id="trainer_tab" class="col-xs-4 col-md-4" style="margin-bottom: 20px">'+
+                    '<div id="trainer_tab" class="col-xs-8 col-md-4" style="margin-bottom: 20px">'+
                       '<div>'+
                         '<div class="card text-center h-100">'+
                           '<div id="cardTitle" class="card-header">Entrenador'+
