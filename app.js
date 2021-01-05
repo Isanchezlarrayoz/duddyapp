@@ -26,7 +26,7 @@ app.use('/trainers', function(req,res){
 
 
 app.listen(process.env.PORT || 3000, function () {
-  console.log('Dudy app listening on port 8080!');
+  console.log('Dudy app listening on port 3000!');
 });
 
 app.get('/getTrainers', function(req, res) {
