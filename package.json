@@ -1,0 +1,20 @@
+{
+  "name": "dudyapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  },
+  "engines": {
+  "node" : "8.4.0"
+  }
+}
