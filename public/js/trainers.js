@@ -122,7 +122,7 @@
                           	'<div class="col-xs-2 col-md-2">'+
                           	'<i class="fas fa-user-circle fa-2x	"></i>'+
                           	'</div>'+
-                          	'<div col-xs-10 col-md-10>'+
+                          	'<div class="col-xs-10 col-md-10">'+
                           		'<label>'+res[i].name+'</label><br>'+
                             	'Clientes asignados: '+
                             	'<ul id=trainerBody'+i+'>'+
